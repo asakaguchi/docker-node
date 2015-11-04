@@ -7,4 +7,6 @@ ONBUILD COPY package.json /usr/src/app/
 ONBUILD RUN npm install
 ONBUILD COPY . /usr/src/app
 
+EXPOSE 80
+
 CMD ["npm", "start"]
