@@ -1,6 +1,6 @@
 FROM alpine:3.2
 
-ENV NODE_VERSION 5.0.0
+ENV NODE_VERSION 5.1.0
 
 RUN apk add --update --virtual build-dependencies build-base linux-headers curl paxctl python \
   && curl -SLO "https://nodejs.org/dist/v$NODE_VERSION/node-v$NODE_VERSION.tar.gz" \
