@@ -17,3 +17,5 @@ RUN apk add --update --virtual build-dependencies build-base linux-headers curl 
     /usr/local/lib/node_modules/npm/man /usr/local/lib/node_modules/npm/doc /usr/local/lib/node_modules/npm/html \
     /usr/local/share/man \
     /usr/include
+
+CMD ["node"]
