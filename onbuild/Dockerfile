@@ -1,4 +1,4 @@
-FROM asakaguchi/node:5.0.0
+FROM asakaguchi/node:5.1.0
 
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
