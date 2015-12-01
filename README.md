@@ -2,6 +2,7 @@ docker-node
 ====
 This is the Node.js for Docker based on Alpine Linux.
 
+[![](https://badge.imagelayers.io/asakaguchi/node:latest.svg)](https://imagelayers.io/?images=asakaguchi/node:latest 'Get your own badge on imagelayers.io')
 
 ## Requirement
 - Docker
